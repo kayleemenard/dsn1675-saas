@@ -16,24 +16,30 @@ html {
   text-size-adjust: 100%;
 }
 
-body {
-	margin: 0;
-	padding: 0;
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.header {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	display: inline-block;
-	background-image: url(../imgs/skulls.png);
-	background-color: #86BFAB;
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em 0.75em;
+  font-weight: bold;
+}
+
+.skip-links: focus {
+  top:0;
 }
 
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
 	margin: .75em;
+	padding: 0;
 	height: 50px;
     width: 50px;
 	overflow: hidden;
@@ -42,7 +48,7 @@ body {
     right: 0;
     padding: 0 5%;
 	
-	background: transparent url("../imgs/toggle.png") no-repeat 0 0;
+	background: transparent url("../imgs/toggle.png") no-repeat;
 	background-position: right;
 
 	text-indent: 100%;
@@ -94,16 +100,6 @@ body {
 	overflow: hidden;
 }
 
-.logo-bottom {
-	width: 50px;
-	margin: .75rem;
-	float: right;
-}
-
-.nav-bottom {
-	float: left;
-}
-
 .billboard {
 	margin: 0;
 	padding: 0;
@@ -113,10 +109,6 @@ body {
 	background-image: url(../imgs/brad-simon.jpg);
 
 	text-align: left;
-}
-
-.billboard p {
-	margin: 1rem;
 }
 
 .headline {
@@ -149,7 +141,126 @@ body {
 	overflow: hidden;
 }
 
-footer {
-	overflow: hidden;
+.footer {
 	background-color: #86BFAB;
 }
+
+.nav-bottom {
+	float: left;
+}
+
+.nav-bottom ul {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.nav-bottom a {
+	text-decoration: none;
+}
+
+.logo-bottom img {
+	float: right;
+}
+
+@media only screen and (min-width: 25em) /** small starting @400px **/ {
+
+
+
+/**  .nav {
+    text-align: center;
+  }
+  .nav li {
+    display: inline;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .nav-footer {
+    text-align: center;
+  }
+  .nav-footer li {
+    display: inline;
+  }
+}
+**/
+
+@media only screen and (min-width: 38em) /** medium starting @ 608px **/{
+
+	.nav-bottom li {
+		display: inline-block;
+	}
+
+/**	
+  .title {
+    float: left;
+    text-align: left;
+  }
+  .title, 
+  .nav {
+    float: left;
+  }
+  .header {
+    overflow: hidden;
+  }
+  .copyright {
+    float: left;
+  }
+  .nav-footer {
+    float: right;
+  }
+  **/
+}
+
+
+@media only screen and (min-width: 60em) /** large starting @960px **/{
+	html {
+ 		font-size: 110%;
+  	}
+
+  	.nav-bottom li {
+		display: inline-block;
+	}
+
+
+ /** 
+  .copyright {
+    float: left;
+  }
+  .nav-footer {
+    float: right;
+  }
+
+  dl {
+    padding: 0;
+    overflow: hidden;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 10rem;
+  }
+  dd {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+**/
+}
+
+
+
+@media only screen and (min-width: 90em) {
+	html {
+		font-size: 120%;
+  	}
+}
+
+@media only screen and (min-width: 120em) {
+  	html {
+  		font-size: 130%;
+  	}
+}
+
+
+
+

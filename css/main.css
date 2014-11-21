@@ -16,6 +16,8 @@ html {
   text-size-adjust: 100%;
 }
 
+/** SKIP LINKS **/
+
 .skip-links {
   margin: 0;
   padding: 0;
@@ -35,6 +37,7 @@ html {
   top:0;
 }
 
+/** TOGGLE NAVIGATION **/
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
@@ -94,6 +97,7 @@ html {
 	overflow: hidden;
 }
 
+/** HEADER **/
 .logo-top {
 	width: 50px;
 	margin: .75rem;
@@ -111,8 +115,13 @@ html {
 	text-align: left;
 }
 
+/** MAIN **/
 .headline {
 	text-align: center;
+}
+
+img {
+	width: 100%;
 }
 
 .start-button {
@@ -141,6 +150,7 @@ html {
 	overflow: hidden;
 }
 
+/** FOOTER **/
 .footer {
 	background-color: #86BFAB;
 }
@@ -162,6 +172,7 @@ html {
 	float: right;
 }
 
+/** MEDIA QUERIES **/
 @media only screen and (min-width: 25em) /** small starting @400px **/ {
 
 
@@ -188,6 +199,10 @@ html {
 
 	.nav-bottom li {
 		display: inline-block;
+	}
+
+	img {
+		width: 100%;
 	}
 
 /**	
@@ -220,6 +235,8 @@ html {
   	.nav-bottom li {
 		display: inline-block;
 	}
+
+
 
 
  /** 

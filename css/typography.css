@@ -84,6 +84,8 @@ small, .milli {
 }
 
 .micro {
+  font-family: Gill Sans, Helevetica, sans-serif;
+  text-transform: uppercase;
   font-size: 0.6944rem;
   line-height: 2.1600;
 }

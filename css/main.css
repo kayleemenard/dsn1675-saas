@@ -15,6 +15,11 @@ html {
   text-size-adjust: 100%;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
 /** SKIP LINKS **/
 
 .skip-links {
@@ -36,11 +41,14 @@ html {
   top:0;
 }
 
+.header {
+	background-image: url(../imgs/skulls.png);
+}
+
 /** TOGGLE NAVIGATION **/
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
-	margin: .75em;
 	height: 50px;
     width: 50px;
 	overflow: hidden;
@@ -56,6 +64,7 @@ html {
 }
 
 .nav-top {
+	padding: 0;
 	max-height: 0; /* makes the area invisible */
     background-color: #F6891F;
     clear: both; /* Comes after the content that floats above */
@@ -72,6 +81,7 @@ html {
 }
 
 .nav-top ul { 
+	padding: 0;
     text-align: center;
     list-style-type: none;
 }
@@ -95,8 +105,6 @@ html {
 /** HEADER **/
 .logo-top {
 	width: 50px;
-	margin: .75rem;
-	overflow: hidden;
 }
 
 .billboard {
@@ -104,15 +112,14 @@ html {
 	height: 50%;
 	background-image: url(../imgs/brad-simon.jpg);
 	text-align: left;
+	overflow: hidden;
 }
 
 /** MAIN **/
 .headline {
-	text-align: center;
-}
-
-img {
 	width: 100%;
+	text-align: center;
+	overflow: hidden;
 }
 
 .start-button {
@@ -141,10 +148,14 @@ img {
 	overflow: hidden;
 }
 
+.feature-img {
+	width: 100%;
+}
+
 /** FOOTER **/
 .footer {
 	background-color: #86BFAB;
-	overflow: hi
+	overflow: hidden;
 }
 
 .nav-bottom {
@@ -152,12 +163,12 @@ img {
 }
 
 .nav-bottom ul {
-	display: inline-block;
 	list-style-type: none;
 }
 
 .nav-bottom a {
 	text-decoration: none;
+	color: white;
 }
 
 .logo-bottom img {
@@ -190,14 +201,14 @@ img {
 **/
 
 @media only screen and (min-width: 38em) /** medium starting @ 608px **/{
+	.nav-bottom {
+		display: block;
+	}
 
 	.nav-bottom li {
 		display: inline-block;
 	}
 
-	img {
-		width: 100%;
-	}
 
 /**	
   .title {

@@ -112,7 +112,6 @@ body {
 	height: 50%;
 	background-image: url(../imgs/brad-simon.jpg);
 	text-align: left;
-	overflow: hidden;
 }
 
 /** MAIN **/
@@ -156,6 +155,11 @@ body {
 .footer {
 	background-color: #86BFAB;
 	overflow: hidden;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bottom {

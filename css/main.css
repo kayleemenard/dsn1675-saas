@@ -213,6 +213,11 @@ body {
 		display: inline-block;
 	}
 
+  .nav-bottom li:nth-child(even) {
+    margin-left: .75rem;
+    margin-right: .75rem;    
+  }
+
 
 /**	
   .title {
@@ -243,7 +248,7 @@ body {
 
   	.nav-bottom li {
 		display: inline-block;
-	}
+    }
 
 
 

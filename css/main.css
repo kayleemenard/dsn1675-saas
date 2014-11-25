@@ -67,7 +67,7 @@ body {
 }
 
 /** HEADER **/
-.logo-top {
+.logo-top img{
   height: 50px;
 	width: 50px;
 }
@@ -160,7 +160,7 @@ body {
 /** MEDIA QUERIES **/
 @media only screen and (min-width: 25em) /** small starting @400px **/ {
   .nav-top {
-    text-align: left;
+    text-align: center;
   }
 
 

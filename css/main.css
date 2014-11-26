@@ -41,8 +41,8 @@ a:focus {
   font-weight: bold;
 }
 
-.skip-links: focus {
-  top:0;
+.skip-links: a:focus {
+  top: 0;
 }
 
 .header {
@@ -104,7 +104,7 @@ a:focus {
 	text-align: center;
 }
 
-.start-button button {
+.button {
 	background-color: white;
 	border: .25em solid #F6891F;
 	margin: 0;
@@ -119,11 +119,8 @@ a:focus {
 
 .start-button a:hover {
 	color: white;
-}
-
-.start-button button:hover {
-	background-color: #EFB47F;
-	overflow: hidden;
+  background-color: #EFB47F;
+  overflow: hidden;
 }
 
 .feature-img {

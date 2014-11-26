@@ -113,7 +113,7 @@ a:focus {
 
 .start-button a {
 	margin: .75em;
-	color: black;
+	color: #fbc912;
 	text-decoration: none;
 }
 
@@ -164,25 +164,6 @@ a:focus {
 @media only screen and (min-width: 25em) /** small starting @400px **/ {
 
 
-
-/**  .nav {
-    text-align: center;
-  }
-  .nav li {
-    display: inline;
-  }
-  .copyright {
-    text-align: center;
-  }
-  .nav-footer {
-    text-align: center;
-  }
-  .nav-footer li {
-    display: inline;
-  }
-}
-**/
-
 @media only screen and (min-width: 38em) /** medium starting @ 608px **/{
   .logo-top {
     float: left;
@@ -212,30 +193,6 @@ a:focus {
     margin-right: .75rem;    
   }
 
-
-
-/**	
-  .title {
-    float: left;
-    text-align: left;
-  }
-  .title, 
-  .nav {
-    float: left;
-  }
-  .header {
-    overflow: hidden;
-  }
-  .copyright {
-    float: left;
-  }
-  .nav-footer {
-    float: right;
-  }
-  **/
-}
-
-
 @media only screen and (min-width: 60em) /** large starting @960px **/{
 	html {
  		font-size: 110%;
@@ -250,36 +207,6 @@ a:focus {
 		display: inline-block;
   }
 
-
-
-
- /** 
-  .copyright {
-    float: left;
-  }
-  .nav-footer {
-    float: right;
-  }
-
-  dl {
-    padding: 0;
-    overflow: hidden;
-  }
-  dt {
-    float: left;
-    clear: left;
-    width: 10rem;
-  }
-  dd {
-    float: left;
-    margin: 0;
-    padding: 0;
-  }
-**/
-}
-
-
-
 @media only screen and (min-width: 90em) {
 	html {
 		font-size: 120%;
@@ -291,7 +218,3 @@ a:focus {
   		font-size: 130%;
   	}
 }
-
-
-
-

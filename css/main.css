@@ -20,6 +20,10 @@ body {
 	padding: 0;
 }
 
+a:focus {
+  outline: 3px solid orange;
+}
+
 /** SKIP LINKS **/
 
 .skip-links {
@@ -42,7 +46,7 @@ body {
 }
 
 .header {
-	background-image: url(../imgs/skulls.png);
+	background-color: #86BFAB;
   overflow: hidden;
 }
 
@@ -57,7 +61,7 @@ body {
 .nav-top a:visited {
   overflow: hidden;
 	font-weight: 400;
-	color: #F6891F;
+	color: white;
 	text-decoration: none;
 }
 
@@ -68,7 +72,6 @@ body {
 
 /** HEADER **/
 .logo-top img{
-  height: 50px;
 	width: 50px;
 }
 
@@ -124,7 +127,8 @@ body {
 }
 
 .feature-img {
-	width: 100%;
+  width: 100%;
+  display: block;
 }
 
 /** FOOTER **/
@@ -153,15 +157,12 @@ body {
 
 .logo-bottom img {
 	float: right;
-	height: 50px;
 	width: 50px;
 }
 
 /** MEDIA QUERIES **/
 @media only screen and (min-width: 25em) /** small starting @400px **/ {
-  .nav-top {
-    text-align: center;
-  }
+
 
 
 /**  .nav {
@@ -183,7 +184,13 @@ body {
 **/
 
 @media only screen and (min-width: 38em) /** medium starting @ 608px **/{
+  .logo-top {
+    float: left;
+    display: block;
+  }
+
   .nav-top {
+    display: inline-block;
     text-align: right;
     float: right;
   }
@@ -204,6 +211,7 @@ body {
     margin-left: .75rem;
     margin-right: .75rem;    
   }
+
 
 
 /**	

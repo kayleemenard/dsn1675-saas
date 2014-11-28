@@ -90,6 +90,12 @@ small, .milli {
   line-height: 2.1600;
 }
 
+.tiny {
+  font-family: Gill Sans, Helvetica, sans-serif;
+  font-size: 0.55rem;
+  color: #41528E;
+}
+
 sub,
 sup {
   font-size: 75%;

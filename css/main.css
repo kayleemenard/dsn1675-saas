@@ -175,6 +175,7 @@ a:focus {
     display: inline-block;
     text-align: right;
     float: right;
+    padding-top: .75rem;
   }
 
   .nav-top li {

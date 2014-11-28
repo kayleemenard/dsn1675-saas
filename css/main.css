@@ -91,7 +91,6 @@ a:focus {
   position: absolute;
   bottom: 0;
   font-style: italic;
-  width: 100%;
 }
 
 /** MAIN **/
@@ -121,6 +120,10 @@ a:focus {
 	color: white;
   background-color: #EFB47F;
   overflow: hidden;
+}
+
+.feature {
+  width: 20%;
 }
 
 .feature-img {

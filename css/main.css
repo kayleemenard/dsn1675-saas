@@ -156,14 +156,26 @@ a:focus {
 	color: white;
 }
 
+.logo-bottom {
+  float: right;
+}
+
 .logo-bottom img {
-	float: right;
 	width: 50px;
+}
+
+.copyright {
+  text-align: right;
+  float: right;
 }
 
 /** MEDIA QUERIES **/
 @media only screen and (min-width: 25em) /** small starting @400px **/ {
+  .nav-links {
+    padding-top: .25rem;
+  }
 
+}
 
 @media only screen and (min-width: 38em) /** medium starting @ 608px **/{
   .logo-top {
@@ -180,6 +192,10 @@ a:focus {
 
   .nav-top li {
     display: inline;
+  }
+
+  .nav-links {
+    padding-top: 1.5rem;
   }
 
   .nav-bottom {

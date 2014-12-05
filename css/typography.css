@@ -60,6 +60,7 @@ h3, .tera {
 }
 
 h4, .giga {
+  font-family: Gill Sans, Helvetica, sans-serif;
   font-size: 1.4400rem;
   line-height: 1.0417;
 }
@@ -93,7 +94,7 @@ small, .milli {
 .tiny {
   font-family: Gill Sans, Helvetica, sans-serif;
   font-size: 0.55rem;
-  color: #41528E;
+  color: white;
 }
 
 sub,

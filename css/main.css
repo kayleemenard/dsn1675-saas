@@ -57,6 +57,10 @@ a:focus {
 }
 
 /** NAVIGATION **/
+.main {
+  margin: 0;
+}
+
 .nav-top ul { 
   list-style-type: none;
   padding: 0;
@@ -72,7 +76,7 @@ a:focus {
 }
 
 .nav-top a:hover {
-	color: #EFB47F;
+	color: #fbc912;
 	overflow: hidden;
 }
 
@@ -82,25 +86,21 @@ a:focus {
 }
 
 .billboard {
-  margin: 0;
-  padding: 0;
   position: relative;
-}
 
-.billboard-img {
-  display: block;
+  text-align: left;
   width: 100%;
-}
+  height: 50%;
+  color: #fbc912;
 
-.billboard figcaption {
-  width: 90%;
-  color: white;
-  position: absolute;
-  bottom: 0;
+  background-image: url(../imgs/billboard-image.jpg);
+  background-size: cover;
+  background-position: 50%;
 }
 
 /** MAIN **/
 .headline {
+  width: 100%;
 	text-align: center;
 	overflow: hidden;
 }
@@ -109,17 +109,13 @@ a:focus {
 	text-align: center;
 }
 
-.button {
-	background-color: white;
-	border: .25em solid #F6891F;
-	margin: 0;
-	padding: 0;
-}
-
 .start-button a {
 	margin: .75em;
 	color: #fbc912;
 	text-decoration: none;
+
+  background-color: white;
+  border: .25em solid #F6891F;
 }
 
 .start-button a:hover {
@@ -196,6 +192,16 @@ a:focus {
     display: inline;
   }
 
+  .billboard p {
+    width: 75%;
+  }
+
+  .headline {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .nav-bottom {
 		display: block;
 	}
@@ -217,6 +223,14 @@ a:focus {
   .nav-top {
     text-align: right;
     float: right;
+  }
+
+  .billboard {
+    width: 100%;
+  }
+
+  .headline {
+    width: 100%;
   }
 
 	.nav-bottom li {

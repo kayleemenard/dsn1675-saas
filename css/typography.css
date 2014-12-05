@@ -46,17 +46,18 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 2.4883rem;
   line-height: 1.2056;
+  color: #F6891F;
 }
 
 h2, .peta {
   font-size: 2.0736rem;
   line-height: 1.4468;
-  color: #86BFAB;
 }
 
 h3, .tera {
   font-size: 1.7280rem;
   line-height: 1.7361;
+  color: #86BFAB;
 }
 
 h4, .giga {

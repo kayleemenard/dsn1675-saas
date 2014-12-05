@@ -179,6 +179,7 @@ a:focus {
 
 .top-button {
   clear: both;
+  text-transform: none;
 }
 
 .logo-bottom {

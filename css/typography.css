@@ -46,7 +46,7 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 2.4883rem;
   line-height: 1.2056;
-  color: #F6891F;
+  color: white;
 }
 
 h2, .peta {
@@ -64,6 +64,7 @@ h4, .giga {
   font-family: Gill Sans, Helvetica, sans-serif;
   font-size: 1.4400rem;
   line-height: 1.0417;
+  color: #fbc912;
 }
 
 h5, .mega {

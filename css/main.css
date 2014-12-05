@@ -88,14 +88,35 @@ a:focus {
 .billboard {
   position: relative;
 
-  text-align: left;
+  text-align: center;
   width: 100%;
   height: 50%;
   color: #fbc912;
 
-  background-image: url(../imgs/billboard-image.jpg);
+  background-image: url(../imgs/billboard-image-02.jpg);
   background-size: cover;
   background-position: 50%;
+}
+
+.val-prop {
+  padding-top: 5rem;
+}
+
+.start-button {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.start-button a {
+  margin: .75em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: .25em solid #F6891F;
+}
+
+.start-button a:hover {
+  color: #fbc912;
 }
 
 /** MAIN **/
@@ -103,25 +124,6 @@ a:focus {
   width: 100%;
 	text-align: center;
 	overflow: hidden;
-}
-
-.start-button {
-	text-align: center;
-}
-
-.start-button a {
-	margin: .75em;
-	color: #fbc912;
-	text-decoration: none;
-
-  background-color: white;
-  border: .25em solid #F6891F;
-}
-
-.start-button a:hover {
-	color: white;
-  background-color: #EFB47F;
-  overflow: hidden;
 }
 
 .feature {
@@ -192,10 +194,6 @@ a:focus {
     display: inline;
   }
 
-  .billboard p {
-    width: 75%;
-  }
-
   .headline {
     width: 75%;
     margin-left: auto;
@@ -223,14 +221,6 @@ a:focus {
   .nav-top {
     text-align: right;
     float: right;
-  }
-
-  .billboard {
-    width: 100%;
-  }
-
-  .headline {
-    width: 100%;
   }
 
 	.nav-bottom li {

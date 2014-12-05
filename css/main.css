@@ -51,19 +51,13 @@ a:focus {
   top: 0;
 }
 
-.header {
-	background-color: #86BFAB;
-  overflow: hidden;
-}
-
 /** NAVIGATION **/
-.main {
-  margin: 0;
-}
 
 .nav-top ul { 
+  width: 100%;
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 .nav-top a,
@@ -81,16 +75,31 @@ a:focus {
 }
 
 /** HEADER **/
+.logo-top {
+  width: 100%;
+}
+
+.logo-top a {
+  margin: auto;
+}
+
 .logo-top img{
 	width: 50px;
 }
 
+.header {
+  background-color: #86BFAB;
+  overflow: hidden;
+}
+
+
+/** MASTHEAD **/
 .billboard {
   position: relative;
 
   text-align: center;
   width: 100%;
-  height: 50%;
+  height: 75%;
   color: #fbc912;
 
   background-image: url(../imgs/billboard-image-02.jpg);
@@ -120,6 +129,10 @@ a:focus {
 }
 
 /** MAIN **/
+.main {
+  margin: 0;
+}
+
 .headline {
   width: 100%;
 	text-align: center;
@@ -192,6 +205,10 @@ a:focus {
 
   .nav-top li {
     display: inline;
+  }
+
+  .billboard {
+    height: 50%;
   }
 
   .headline {

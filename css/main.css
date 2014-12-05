@@ -8,11 +8,17 @@ html {
   margin: 0;
   padding: 0;
 
+  box-sizing: border-box;
+
   font: normal 100%/1.5 Gill Sans,sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
 }
 
 body {
@@ -166,14 +172,11 @@ a:focus {
 
 .copyright {
   text-align: right;
-  float: right;
+  clear: both;
 }
 
 /** MEDIA QUERIES **/
 @media only screen and (min-width: 25em) /** small starting @400px **/ {
-  .nav-links {
-    padding-top: .25rem;
-  }
 
 }
 
@@ -192,10 +195,6 @@ a:focus {
 
   .nav-top li {
     display: inline;
-  }
-
-  .nav-links {
-    padding-top: 1.5rem;
   }
 
   .nav-bottom {

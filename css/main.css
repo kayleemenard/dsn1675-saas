@@ -52,29 +52,6 @@ a:focus {
 }
 
 /** NAVIGATION **/
-
-.nav-top ul { 
-  width: 100%;
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-}
-
-.nav-top a,
-.nav-top a:link,
-.nav-top a:visited {
-  overflow: hidden;
-	font-weight: 400;
-	color: white;
-	text-decoration: none;
-}
-
-.nav-top a:hover {
-	color: #fbc912;
-	overflow: hidden;
-}
-
-/** HEADER **/
 .logo-top {
   width: 100%;
 }
@@ -84,12 +61,40 @@ a:focus {
 }
 
 .logo-top img{
-	width: 50px;
+  width: 50px;
 }
 
+.nav-top {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-list ul { 
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+  overflow: hidden;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-list a:hover {
+	color: #fbc912;
+	overflow: hidden;
+}
+
+/** HEADER **/
 .header {
   background-color: #86BFAB;
   overflow: hidden;
+  text-align: center;
 }
 
 
@@ -172,6 +177,10 @@ a:focus {
 	color: white;
 }
 
+.top-button {
+  clear: both;
+}
+
 .logo-bottom {
   float: right;
 }
@@ -191,19 +200,27 @@ a:focus {
 }
 
 @media only screen and (min-width: 38em) /** medium starting @ 608px **/{
+  .header {
+    text-align: left;
+  }
+
   .logo-top {
     float: left;
     display: block;
   }
 
-  .nav-top {
+  .logo-top a {
+    margin: 0;
+  }
+
+  .nav-list {
     display: inline-block;
     text-align: right;
     float: right;
     padding-top: .75rem;
   }
 
-  .nav-top li {
+  .nav-list li {
     display: inline;
   }
 

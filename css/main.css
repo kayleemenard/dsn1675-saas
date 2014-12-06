@@ -70,6 +70,9 @@ a:focus {
   text-decoration: none;
 }
 
+
+.main-head a,
+.main-head a:link,
 .main-head a:visited{
   color: white;
 }
@@ -119,7 +122,7 @@ a:focus {
 
   background-image: url(../imgs/billboard-image-02.jpg);
   background-size: cover;
-  background-position: 50%;
+  background-position: top;
 }
 
 .val-prop {

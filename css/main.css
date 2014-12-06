@@ -53,7 +53,7 @@ a:focus {
   top: 0;
 }
 
-/** NAVIGATION **/
+/** TOP NAVIGATION **/
 .logo-top {
   width: 100%;
 }
@@ -64,6 +64,14 @@ a:focus {
 
 .logo-top img{
   width: 50px;
+}
+
+.main-head a {
+  text-decoration: none;
+}
+
+.main-head a:visited{
+  color: white;
 }
 
 .nav-top {
@@ -209,11 +217,16 @@ a:focus {
 
   .logo-top {
     float: left;
-    display: block;
+    display: inline;
   }
 
-  .logo-top a {
-    margin: 0;
+  .logo-top img {
+    float: left;
+  }
+
+  .main-head {
+    padding-top: .5rem;
+    float: left;
   }
 
   .nav-list {

@@ -32,6 +32,10 @@ a:focus {
   outline: 3px solid orange;
 }
 
+.clear {
+  clear: both;
+}
+
 /** SKIP LINKS **/
 
 .skip-links {
@@ -69,7 +73,6 @@ a:focus {
 .main-head a {
   text-decoration: none;
 }
-
 
 .main-head a,
 .main-head a:link,
@@ -165,6 +168,37 @@ a:focus {
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.pricing {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pricing ul { 
+  padding: .5rem; 
+}
+
+.pricing li { 
+  list-style: none; 
+}
+
+.pricing li:before {
+    content: '•';
+    color: red;
+    float: left;
+    width: 1em;
+    margin: .25rem -1rem;
+    font-size: 75%;
+}
+
+.pricing-package {
+  display: inline-block;
+  float: left;
+}
+
+.end-note {
+  width: 100%;
 }
 
 /** FOOTER **/

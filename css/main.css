@@ -26,6 +26,8 @@ body {
 	padding: 0;
 }
 
+
+
 a:focus {
   margin: 0;
   padding: .25rem .75rem;
@@ -41,11 +43,11 @@ a:focus {
 }
 
 .skip-links a {
+  padding: 0.5em 0.75em;
   position: absolute;
   top: -3em;
   background-color: #000;
   color: #fff;
-  padding: 0.5em 0.75em;
   font-weight: bold;
 }
 
@@ -104,14 +106,14 @@ a:focus {
 }
 
 /** HEADER **/
-.header {
+.masthead {
   background-color: #86BFAB;
   overflow: hidden;
   text-align: center;
 }
 
 
-/** MASTHEAD **/
+/** BILLBOARD **/
 .billboard {
   position: relative;
 

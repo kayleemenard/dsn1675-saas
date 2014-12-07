@@ -62,7 +62,7 @@ h3, .tera {
 }
 
 h4, .giga {
-  font-family: Gill Sans Mt, Calibri, sans-serif;
+  font-family: Gill Sans Std, Calibri, sans-serif;
   font-size: 1.4400rem;
   font-weight: normal;
   line-height: 1.0417;
@@ -78,7 +78,7 @@ h5, .mega {
 }
 
 h6, .kilo {
-  font-family: Gill Sans Mt, Calibri, sans-serif;
+  font-family: Gill Sans Std, Calibri, sans-serif;
   font-size: 1.0000rem;
   font-weight: normal;
   line-height: 1.5000;
@@ -90,7 +90,7 @@ small, .milli {
 }
 
 .micro {
-  font-family: Gill Sans Mt, Calibri, sans-serif;
+  font-family: Gill Sans Std, Calibri, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 0.6944rem;
@@ -98,7 +98,7 @@ small, .milli {
 }
 
 .tiny {
-  font-family: Gill Sans Mt, Calibri, sans-serif;
+  font-family: Gill Sans Std, Calibri, sans-serif;
   font-size: 0.55rem;
   color: white;
 }

@@ -7,6 +7,7 @@
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
 
   box-sizing: border-box;
 
@@ -24,6 +25,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+  height:100%;
 }
 
 .clear {
@@ -212,6 +214,29 @@ body {
   width: 100%;
 }
 
+label {
+  display: block;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+}
+
+button {
+  color: white;
+  background-color: #fbc912;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: .25em solid #F6891F;
+}
+
+button:hover {
+  color: #fbc912;
+  background-color: white;
+}
+
 /** FOOTER **/
 .footer {
 	background-color: #86BFAB;
@@ -301,6 +326,10 @@ body {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  label {
+    display: inline-block;
   }
 
   .nav-bottom {

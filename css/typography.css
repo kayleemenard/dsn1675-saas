@@ -37,6 +37,10 @@ fieldset, pre, table {
   color: white;
 }
 
+.yellow {
+  color: #fbc912;
+}
+
 .yotta {
   font-size: 3.5832rem;
   line-height: 1.2559;

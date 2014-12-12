@@ -35,7 +35,64 @@
 	</div>
 </header>
 
-<main class="pad-b" role="main" id="main">
+<main class="pad-b gutter-1-2" role="main" id="main">
+
+	<h2 class="push-0 gutter-1-2 pad-b-1-2 tera">Sign Up</h2>
+
+<form  id="form" action="thank-you.html" method="post" class="grid">
+	<div class="unit gutter-1-2 pad-b unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+		<div class="yellow kilo">
+			<label for="name">Name</label>
+			<input id="name" required>
+		</div>
+
+		<div class="yellow kilo">
+			<label for="last-name">Last Name</label>
+			<input id="last-name" required>
+		</div>
+
+		<div class="yellow kilo">
+			<label for="email">Your E-mail</label>
+			<input type="email" id="email" placeholder="johnsmith@email.com" required>
+		</div>
+	</div>
+
+	<div class="unit gutter-1-2 pad-b unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+		<div class="yellow kilo">
+			<label for="username">Username</label>
+			<input id="username" required>
+		</div>
+
+		<div>
+			<script type="text/javascript">
+		    function confirmPass() {
+		        var pass = document.getElementById("pass").value
+		        var confPass = document.getElementById("c_pass").value
+		        if(pass != confPass) {
+		            alert('Wrong confirm password !');
+		        }
+		    }
+			</script>
+		</div>
+	 
+		<div class="yellow kilo">
+			<div>
+			    <label for="pass">Password</label>
+			    <input type="password" id="pass" class="text" name="your_pass" value=""/>
+		    </div>
+
+		    <div>
+			    <label for="c_pass">Confirm Password</label>
+			    <input type="password" id="c_pass" class="text" name="your_c_pass" value="" onblur="confirmPass()"/>
+			</div>
+		</div>
+	</div>
+
+	<div class="unit gutter-1-2 push-1unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+		<button type="submit" class="push-0">Send</button>
+	</div>
+
+</form>
 </main>
 
 <footer class="footer island-1-2 grid grid-middle">

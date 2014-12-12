@@ -214,6 +214,8 @@ body {
   width: 100%;
 }
 
+
+/** FORM **/
 label {
   display: block;
 }
@@ -222,6 +224,10 @@ input,
 select,
 textarea {
   width: 100%;
+}
+
+input {
+  height: 2rem;
 }
 
 button {
@@ -330,6 +336,10 @@ button:hover {
 
   label {
     display: inline-block;
+  }
+
+  input {
+    height: 1.5rem;
   }
 
   .nav-bottom {

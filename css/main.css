@@ -226,7 +226,8 @@ textarea {
   width: 100%;
 }
 
-input {
+input,
+textarea {
   height: 2rem;
 }
 
@@ -338,7 +339,8 @@ button:hover {
     display: inline-block;
   }
 
-  input {
+  input,
+  textarea {
     height: 1.5rem;
   }
 

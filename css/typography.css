@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 Lobster Two, GillSansStd, sans-serif;
+  font: normal 100%/1.5 Lobster Two, "Gill Sans", "Gill Sans MT"sans-serif;
 }
 
 @media only screen and (min-width: 60em) {
@@ -26,10 +26,7 @@ html {
 
 }
 
-@font-face {
-  font-family: 'GillSansStd';
-  src: url('font/gillsansstd.oft');
-}
+
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
@@ -74,7 +71,7 @@ h3, .tera {
 }
 
 h4, .giga {
-  font-family: GillSansStd, Calibri, sans-serif;
+  font-family: Gill Sans Std, Calibri, sans-serif;
   font-size: 1.4400rem;
   font-weight: normal;
   line-height: 1.0417;
@@ -90,7 +87,7 @@ h5, .mega {
 }
 
 h6, .kilo {
-  font-family: GillSansStd, Calibri, sans-serif;
+  font-family: Gill Sans Std, Calibri, sans-serif;
   font-size: 1.0000rem;
   font-weight: normal;
   line-height: 1.5000;
@@ -102,7 +99,7 @@ small, .milli {
 }
 
 .micro {
-  font-family: GillSansStd, Calibri, sans-serif;
+  font-family: Gill Sans Std, Calibri, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 0.6944rem;
@@ -110,7 +107,7 @@ small, .milli {
 }
 
 .tiny {
-  font-family: GillSansStd, Calibri, sans-serif;
+  font-family: Gill Sans Std, Calibri, sans-serif;
   font-size: 0.55rem;
   color: white;
 }

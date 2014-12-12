@@ -28,8 +28,7 @@ html {
 
 @font-face {
   font-family: 'GillSansStd';
-  src: url('fonts/gillsansstd');
-  src: local('gillsansstd'), local('Gill'), url('fonts/gillsansstd.otf') format('opentype');
+  src: url('font/gillsansstd');
 }
 
 h1, h2, h3, h4, h5, h6,

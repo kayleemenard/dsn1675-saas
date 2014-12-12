@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 Lobster Two, Gill Sans, sans-serif;
+  font: normal 100%/1.5 Lobster Two, Gill Sans Std, sans-serif;
 }
 
 @media only screen and (min-width: 60em) {
@@ -24,6 +24,12 @@ html {
     font-size: 130%;
   }
 
+}
+
+@font-face {
+  font-family: 'GillSansStd';
+  src: url('fonts/gillsansstd');
+  src: local('gillsansstd'), local('Gill'), url('fonts/gillsansstd.otf') format('opentype');
 }
 
 h1, h2, h3, h4, h5, h6,

@@ -232,6 +232,8 @@ textarea {
 }
 
 button {
+  padding: .5rem 1rem .5rem 1rem;
+
   color: white;
   background-color: #fbc912;
   text-decoration: none;
